@@ -7,42 +7,59 @@ from keras.callbacks import ModelCheckpoint
 from keras.utils import np_utils
 import itertools
 from create_dataset import create
+from operator import itemgetter
+from heapq import nlargest
 
-model, int_to_card, card_to_int, X, y, input_len = create()
-filename = "weights-improvement-19-4.3681.hdf5"
+model, int_to_card, card_to_int, Xs, ys, input_len = create()
+filename = "weights-improvement-00-1.4557.hdf5"
 model.load_weights(filename)
 model.compile(loss='categorical_crossentropy', optimizer='adam')
 # # pick a random seed
 # test_input = [numpy.random.randint(0, len(int_to_card)), numpy.random.randint(0, len(int_to_card))]
 
-test_input_text = ["Mounted Raptor LoE", "Savage Roar"]
+test_input_text = ["Mounted Raptor LoE", "Savage Roar", "Living Roots TGT", "Swipe"]
+# test_input_text = ["Earthen Ring Farseer", "Argent Squire", "Bloodmage Thalnos"]
+# test_input_text = ["Mounted Raptor LoE", "Mad Scientist Naxx", "Alexstrasza"]
+# test_input_text = ["Ice Barrier", "Fireball", "Acolyte of Pain"]
+
 test_input = list(card_to_int[card] for card in test_input_text)
 
-generated_deck = [] + test_input
+print("Test input indices", test_input)
+
+# generated_deck = [] + test_input
+generated_deck = {}
+for test_card in test_input:
+    generated_deck[test_card] = 1
+
 for i in range(30 - input_len):
-	test_input = numpy.reshape(test_input, (1, len(test_input), 1))
-	test_input = test_input/float(len(int_to_card))
-	prediction = model.predict(test_input)
-	card_int = numpy.argmax(prediction)
-	test_input = [generated_deck[numpy.random.randint(0, len(generated_deck))], card_int]
-	generated_deck.append(card_int)
+    pruned_test_input = numpy.reshape(test_input, (1, len(test_input), 1))
+    pruned_test_input = pruned_test_input/float(len(int_to_card))
+    prediction = model.predict(pruned_test_input)
+    prediction = numpy.argsort(prediction[0])
+    print("prediction is ", prediction)
+    for i in range(len(prediction) - 1, -1, -1):
+        if prediction[i] not in generated_deck or generated_deck[prediction[i]] < 2:
+            card_int = prediction[i]
+            test_input.append(card_int)
+            test_input = test_input[1:]
+            print("New test input", test_input)
+            # generated_deck.append(card_int)
+            if card_int in generated_deck:
+                generated_deck[card_int] = 2
+            else:
+                generated_deck[card_int] = 1
+            break
+    # card_int = numpy.argmax(prediction)
+    # test_input.append(card_int)
+    # test_input = test_input[1:]
+    # print("New test input", test_input)
+    # # generated_deck.append(card_int)
+    # if card_int in generated_deck:
+    #     generated_deck[card_int] = 2
+    # else:
+    #     generated_deck[card_int] = 1
 
 for card_int in generated_deck:
-	print(int_to_card[card_int])
-# pattern = dataX[start]
-# print "Seed:"
-# print "\"", ''.join([int_to_char[value] for value in pattern]), "\""
+    print(int_to_card[card_int], generated_deck[card_int])
 
-# #Pick 100 chars from the text as seed, then generate the next one. Then use that new char plus the 99 prev chars as the new seed. Do this 1000 times.
-# # generate characters
-# for i in range(1000):
-# 	x = numpy.reshape(pattern, (1, len(pattern), 1))
-# 	x = x / float(n_vocab)
-# 	prediction = model.predict(x, verbose=0)
-# 	index = numpy.argmax(prediction)
-# 	result = int_to_char[index]
-# 	seq_in = [int_to_char[value] for value in pattern]
-# 	sys.stdout.write(result)
-# 	pattern.append(index)
-# 	pattern = pattern[1:len(pattern)]
-# print "\nDone."
+

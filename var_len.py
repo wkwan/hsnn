@@ -45,7 +45,7 @@ def train():
     for deck in decks:
         deck_ints = list(card_to_int[card] for index, card in enumerate(deck))
         print("Deck is", deck_ints)
-        for i in range(100):
+        for i in range(300):
             input_len = numpy.random.randint(2, MAX_LEN)
             input = numpy.random.choice(deck_ints, input_len)
             dataX.append(input[:len(input)-1])
@@ -76,7 +76,7 @@ def train():
     checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
     callbacks_list = [checkpoint]
 
-    model.fit(X, y, nb_epoch=10, batch_size=batch_size, verbose=2, validation_split=0.33, callbacks=callbacks_list)
+    model.fit(X, y, nb_epoch=20, batch_size=batch_size, verbose=2, validation_split=0.33, callbacks=callbacks_list)
 
     model_json = model.to_json()
     with open("model.json", "w") as json_file:
@@ -89,11 +89,11 @@ def train():
     return model
 
 def generate(model):
-    test_input_text = ["Mounted Raptor LoE", "Savage Roar", "Living Roots TGT", "Swipe", "Big Game Hunter"]
+    # test_input_text = ["Mounted Raptor LoE", "Savage Roar", "Living Roots TGT", "Swipe", "Big Game Hunter"]
     # test_input_text = ["Earthen Ring Farseer", "Argent Squire", "Bloodmage Thalnos"]
     # test_input_text = ["Mounted Raptor LoE", "Mad Scientist Naxx", "Alexstrasza"]
-    # test_input_text = ["Ice Barrier", "Fireball", "Acolyte of Pain"]
-
+    # test_input_text = ["Ice Barrier", "Frostbolt", "Archmage Antonidas", "Spider Tank GvG", "Loatheb Naxx", "Annoy-o-Tron GvG", "Cogmaster GvG"]
+    test_input_text = ["Northshire Cleric", "Twilight Guardian TGT"]
     test_input = list(card_to_int[card] for card in test_input_text)
     generated_deck_len = len(test_input)
     while len(test_input) < 30:
@@ -108,12 +108,12 @@ def generate(model):
 
     print("generated deck is", list(int_to_card[card_int] for card_int in test_input))
 
-json_file = open('model.json', 'r')
-loaded_model_json = json_file.read()
-json_file.close()
-model = model_from_json(loaded_model_json)
+# json_file = open('model.json', 'r')
+# loaded_model_json = json_file.read()
+# json_file.close()
+# model = model_from_json(loaded_model_json)
 # model.load_weights("weights.final.h5")
-model.load_weights("weights.best.hdf5")
+# model.load_weights("weights.best.hdf5")
 
-# model = train()
+model = train()
 generate(model)

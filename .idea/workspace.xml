@@ -2,108 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3892d6e-c736-46b9-a1f5-227dfa80fda4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var_len.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-1.4557.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-1.4925.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-1.5034.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-1.5984.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-1.7508.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-1.8654.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-1.9242.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-1.9496.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-1.9873.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-2.0229.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-2.0762.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-2.1004.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-2.1141.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-2.2599.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-2.2955.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-2.3649.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-2.9263.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-2.9431.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-2.9603.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-4.1333.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-4.1923.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-4.2010.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-4.4189.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-4.7302.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-4.7334.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-5.4868.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-5.5084.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-5.6349.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-5.6472.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-5.6513.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-01-4.6207.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-01-5.5989.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-01-5.6272.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-01-5.6396.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-02-4.6145.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-02-5.5392.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-02-5.6045.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-02-5.6286.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-03-4.5939.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-03-5.4451.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-03-5.5777.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-03-5.6168.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-04-4.5780.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-04-5.2965.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-04-5.5418.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-04-5.6020.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-05-4.5694.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-05-5.1383.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-05-5.4927.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-05-5.5854.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-06-4.5636.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-06-5.0293.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-06-5.4315.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-06-5.5649.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-07-4.9620.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-07-5.3468.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-07-5.5391.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-08-4.9482.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-08-5.2643.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-08-5.5069.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-09-4.9370.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-09-5.1794.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-09-5.4691.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-10-4.9191.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-10-5.1085.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-10-5.4265.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-11-5.0469.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-11-5.3818.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-12-4.9091.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-12-5.0044.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-12-5.3419.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-13-4.9055.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-13-4.9852.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-13-5.2991.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-14-4.9509.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-14-5.2739.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-15-4.9008.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-15-4.9425.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-15-5.2560.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-16-4.9379.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-16-5.2365.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-17-4.8987.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-17-4.9317.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-18-4.8946.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-18-4.9236.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-18-5.2331.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-19-4.9217.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-20-4.9152.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-20-5.2239.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-21-4.9129.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-21-5.2201.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-22-5.2167.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-23-4.9089.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-23-5.2150.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-24-4.9086.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-26-4.8975.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-27-5.2084.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-28-4.8973.hdf5" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/hsnn.iml" afterPath="$PROJECT_DIR$/.idea/hsnn.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var_len.py" afterPath="$PROJECT_DIR$/var_len.py" />
     </list>
     <ignored path="hsnn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,7 +17,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/hsnn$generate.coverage" NAME="generate Coverage Results" MODIFIED="1478083704206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hsnn$var_len.coverage" NAME="var_len Coverage Results" MODIFIED="1479082690122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hsnn$var_len.coverage" NAME="var_len Coverage Results" MODIFIED="1479127046048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -131,8 +31,8 @@
       <file leaf-file-name="generate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="24" selection-end-column="64" />
+            <state relative-caret-position="1517">
+              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -163,11 +63,31 @@
       <file leaf-file-name="var_len.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/var_len.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1430">
-              <caret line="89" column="47" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
+            <state relative-caret-position="1276">
+              <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/Theano-0.8.2-py2.7.egg/theano/sandbox/cuda/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8687">
+              <caret line="585" column="65" selection-start-line="585" selection-start-column="65" selection-end-line="585" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -281,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -302,7 +223,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -592,26 +512,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="67" width="3866" height="2106" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15789473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1605529" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39324033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33583692" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33530042" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -638,32 +558,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/Keras-1.1.0-py2.7.egg/keras/callbacks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11152">
-          <caret line="283" column="0" selection-start-line="283" selection-start-column="0" selection-end-line="283" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
-          <caret line="51" column="99" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="99" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -1068,20 +962,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/Theano-0.8.2-py2.7.egg/theano/sandbox/cuda/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8687">
+          <caret line="585" column="65" selection-start-line="585" selection-start-column="65" selection-end-line="585" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="24" selection-end-column="64" />
+        <state relative-caret-position="1517">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weights.best.hdf5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2296">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/var_len.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="89" column="47" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
+        <state relative-caret-position="1276">
+          <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
